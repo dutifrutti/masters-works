@@ -1,0 +1,1 @@
+symbol recognition task
