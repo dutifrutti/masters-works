@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfgen\__main__.py", line 18, in <module>
+    main()
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfgen\core.py", line 717, in main
+    config = kconfiglib.Kconfig(args.kconfig, parser_version=parser_version)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 920, in __init__
+    self()
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 934, in __call__
+    prev = self._parse_block(None, self.top_node, self.top_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 2581, in _parse_block
+    prev = self._parse_block(None, parent, prev)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 2581, in _parse_block
+    prev = self._parse_block(None, parent, prev)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 2507, in _parse_block
+    while self._tokenize_line():
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 1816, in _tokenize_line
+    self._tokens = self._tokenize(line)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 1939, in _tokenize
+    self._parse_error("unknown token at start of line")
+  File "c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfiglib\core.py", line 3415, in _parse_error
+    raise KconfigError(
+kconfiglib.core.KconfigError: C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/common_components/camera/Kconfig.projbuild:1: error: couldn't parse '/*': unknown token at start of line
+CMake Error at C:/tools/esp-idf/tools/cmake/kconfig.cmake:209 (message):
+  Failed to run kconfgen
+  (c:/Users/ignas/.espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;-m;kconfgen;--list-separator=semicolon;--kconfig;C:/tools/esp-idf/Kconfig;--sdkconfig-rename;C:/tools/esp-idf/sdkconfig.rename;--config;C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/sdkconfig;--defaults;C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/sdkconfig.defaults;--defaults;C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/sdkconfig.defaults.esp32s3;--env-file;C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/config.env).
+  Error 1
+Call Stack (most recent call first):
+  C:/tools/esp-idf/tools/cmake/build.cmake:681 (__kconfig_generate_config)
+  C:/tools/esp-idf/tools/cmake/project.cmake:717 (idf_build_process)
+  CMakeLists.txt:7 (project)
+
+

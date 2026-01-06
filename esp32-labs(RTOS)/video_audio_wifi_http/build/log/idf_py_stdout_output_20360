@@ -1,0 +1,74 @@
+[1/5] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\camera\video_stream_server\build\esp-idf\esptool_py && c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/tools/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/partition_table/partition-table.bin C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/video_stream_server.bin"
+video_stream_server.bin binary size 0xd8dd0 bytes. Smallest app partition is 0x100000 bytes. 0x27230 bytes (15%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\camera\video_stream_server\build\bootloader\esp-idf\esptool_py && c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/tools/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader/bootloader.bin"
+Bootloader binary size 0x57c0 bytes. 0x2840 bytes (31%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] C:\Windows\system32\cmd.exe /C "cd /D C:\tools\esp-idf\components\esptool_py && C:\Users\ignas\.espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/tools/esp-idf -D SERIAL_TOOL=c:/Users/ignas/.espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;;C:/tools/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build -P C:/tools/esp-idf/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32s3 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 4MB 0x0 bootloader/bootloader.bin 0x10000 video_stream_server.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port COM3
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 74:4d:bd:96:dc:7c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000e8fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 22464 bytes to 14258...
+Writing at 0x00000000... (100 %)
+Wrote 22464 bytes (14258 compressed) at 0x00000000 in 0.5 seconds (effective 370.3 kbit/s)...
+Hash of data verified.
+Compressed 888272 bytes to 548825...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001c94f... (5 %)
+Writing at 0x00025e63... (8 %)
+Writing at 0x0002f2a0... (11 %)
+Writing at 0x00038e41... (14 %)
+Writing at 0x0003ec98... (17 %)
+Writing at 0x00044c86... (20 %)
+Writing at 0x0004b32f... (23 %)
+Writing at 0x0005172c... (26 %)
+Writing at 0x000591ea... (29 %)
+Writing at 0x0005f2f0... (32 %)
+Writing at 0x000652be... (35 %)
+Writing at 0x0006b13d... (38 %)
+Writing at 0x0007106b... (41 %)
+Writing at 0x00075e1a... (44 %)
+Writing at 0x0007aee4... (47 %)
+Writing at 0x0008044d... (50 %)
+Writing at 0x000856ca... (52 %)
+Writing at 0x0008a81b... (55 %)
+Writing at 0x0008fa7a... (58 %)
+Writing at 0x00095bc2... (61 %)
+Writing at 0x0009b5ac... (64 %)
+Writing at 0x000a1558... (67 %)
+Writing at 0x000a6e06... (70 %)
+Writing at 0x000acb4d... (73 %)
+Writing at 0x000b2dcb... (76 %)
+Writing at 0x000b8473... (79 %)
+Writing at 0x000be6fc... (82 %)
+Writing at 0x000c8b18... (85 %)
+Writing at 0x000ceaa8... (88 %)
+Writing at 0x000d49e4... (91 %)
+Writing at 0x000da4ef... (94 %)
+Writing at 0x000e0a6a... (97 %)
+Writing at 0x000e5ccd... (100 %)
+Wrote 888272 bytes (548825 compressed) at 0x00010000 in 8.2 seconds (effective 863.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 229.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

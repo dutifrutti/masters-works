@@ -1,0 +1,7 @@
+source "C:/tools/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/tools/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "C:/tools/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "C:/tools/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/tools/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/Kconfig.projbuild"
+source "C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/common_components/camera/Kconfig.projbuild"

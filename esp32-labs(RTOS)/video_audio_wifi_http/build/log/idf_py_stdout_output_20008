@@ -1,0 +1,18 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\camera\video_stream_server\build\bootloader\esp-idf\esptool_py && c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/tools/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader/bootloader.bin"
+Bootloader binary size 0x57c0 bytes. 0x2840 bytes (31%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/stram_server.c.obj
+[5/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/take_picture.c.obj
+[6/10] Linking C static library esp-idf\main\libmain.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable video_stream_server.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/video_stream_server.bin
+[10/10] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\camera\video_stream_server\build\esp-idf\esptool_py && c:\Users\ignas\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/tools/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/partition_table/partition-table.bin C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/video_stream_server.bin"
+video_stream_server.bin binary size 0xdd6b0 bytes. Smallest app partition is 0x100000 bytes. 0x22950 bytes (14%) free.

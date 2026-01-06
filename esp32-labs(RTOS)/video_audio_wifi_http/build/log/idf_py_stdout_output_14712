@@ -1,0 +1,11 @@
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Using component placed at C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\common_components\camera for dependency "camera", specified in C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\camera\video_stream_server\main\idf_component.yml
+NOTICE: Processing 3 dependencies:
+NOTICE: [1/3] camera (*) (C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\common_components\camera)
+NOTICE: [2/3] espressif/esp32-camera (2.0.15)
+NOTICE: [3/3] idf (5.4.1)
+-- Project sdkconfig file C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/sdkconfig
+-- Configuring incomplete, errors occurred!

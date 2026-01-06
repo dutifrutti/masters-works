@@ -1,0 +1,19 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM3 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40048836: uart_tx_one_char_uart in ROM
+[0m
+[0;33m--- 0x4200bf9a: init_camera at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:69
+[0m
+[0;33m--- 0x400556d5: strlen in ROM
+--- 0x400556e5: strlen in ROM
+[0m
+[0;33m--- 0x4200bf97: init_camera at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:68
+--- 0x4200c052: app_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:101
+--- 0x42091be7: main_task at C:/tools/esp-idf/components/freertos/app_startup.c:208
+--- 0x4038335d: vPortTaskWrapper at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037a065: esp_restart_noos at C:/tools/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m

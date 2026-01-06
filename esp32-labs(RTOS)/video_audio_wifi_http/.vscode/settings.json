@@ -1,0 +1,23 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "c:\\Users\\ignas\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=c:\\Users\\ignas\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\ignas\\OneDrive\\Desktop\\esp-iot-solution-master\\examples\\camera\\video_stream_server\\build"
+  ],
+  "files.associations": {
+    "wifi": "c",
+    "sys.h": "c",
+    "camera_pin.h": "c",
+    "freertos.h": "c",
+    "wifi2": "c",
+    "i2s_pdm.h": "c",
+    "esp_http_server.h": "c"
+  }
+}

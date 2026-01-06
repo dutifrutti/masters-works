@@ -1,0 +1,74 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM3 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40383550: spinlock_acquire at C:/tools/esp-idf/components/esp_hw_support/include/spinlock.h:105
+---  (inlined by) xPortEnterCriticalTimeout at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
+[0m
+[0;33m--- 0x4037a0b1: panic_abort at C:/tools/esp-idf/components/esp_system/panic.c:454
+--- 0x40382885: esp_system_abort at C:/tools/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038d935: __assert_func at C:/tools/esp-idf/components/newlib/assert.c:80
+--- 0x42022093: esp_netif_create_default_wifi_sta at C:/tools/esp-idf/components/esp_wifi/src/wifi_default.c:388 (discriminator 1)
+--- 0x4200c403: app_wifi_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/app_wifi.c:182
+--- 0x4200c063: app_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:94
+--- 0x42092583: main_task at C:/tools/esp-idf/components/freertos/app_startup.c:208
+--- 0x4038335d: vPortTaskWrapper at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037a065: esp_restart_noos at C:/tools/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037a0b1: panic_abort at C:/tools/esp-idf/components/esp_system/panic.c:454
+--- 0x40382885: esp_system_abort at C:/tools/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038d935: __assert_func at C:/tools/esp-idf/components/newlib/assert.c:80
+--- 0x42022093: esp_netif_create_default_wifi_sta at C:/tools/esp-idf/components/esp_wifi/src/wifi_default.c:388 (discriminator 1)
+--- 0x4200c403: app_wifi_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/app_wifi.c:182
+--- 0x4200c063: app_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:94
+--- 0x42092583: main_task at C:/tools/esp-idf/components/freertos/app_startup.c:208
+--- 0x4038335d: vPortTaskWrapper at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037a065: esp_restart_noos at C:/tools/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037a0b1: panic_abort at C:/tools/esp-idf/components/esp_system/panic.c:454
+--- 0x40382885: esp_system_abort at C:/tools/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038d935: __assert_func at C:/tools/esp-idf/components/newlib/assert.c:80
+--- 0x42022093: esp_netif_create_default_wifi_sta at C:/tools/esp-idf/components/esp_wifi/src/wifi_default.c:388 (discriminator 1)
+--- 0x4200c403: app_wifi_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/app_wifi.c:182
+--- 0x4200c063: app_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:94
+--- 0x42092583: main_task at C:/tools/esp-idf/components/freertos/app_startup.c:208
+--- 0x4038335d: vPortTaskWrapper at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037a065: esp_restart_noos at C:/tools/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037a0b1: panic_abort at C:/tools/esp-idf/components/esp_system/panic.c:454
+--- 0x40382885: esp_system_abort at C:/tools/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038d935: __assert_func at C:/tools/esp-idf/components/newlib/assert.c:80
+--- 0x42022093: esp_netif_create_default_wifi_sta at C:/tools/esp-idf/components/esp_wifi/src/wifi_default.c:388 (discriminator 1)
+--- 0x4200c403: app_wifi_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/app_wifi.c:182
+--- 0x4200c063: app_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:94
+--- 0x42092583: main_task at C:/tools/esp-idf/components/freertos/app_startup.c:208
+--- 0x4038335d: vPortTaskWrapper at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037a065: esp_restart_noos at C:/tools/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037a0b1: panic_abort at C:/tools/esp-idf/components/esp_system/panic.c:454
+--- 0x40382885: esp_system_abort at C:/tools/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038d935: __assert_func at C:/tools/esp-idf/components/newlib/assert.c:80
+--- 0x42022093: esp_netif_create_default_wifi_sta at C:/tools/esp-idf/components/esp_wifi/src/wifi_default.c:388 (discriminator 1)
+--- 0x4200c403: app_wifi_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/app_wifi.c:182
+--- 0x4200c063: app_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:94
+--- 0x42092583: main_task at C:/tools/esp-idf/components/freertos/app_startup.c:208
+--- 0x4038335d: vPortTaskWrapper at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037a065: esp_restart_noos at C:/tools/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037a0b1: panic_abort at C:/tools/esp-idf/components/esp_system/panic.c:454
+--- 0x40382885: esp_system_abort at C:/tools/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038d935: __assert_func at C:/tools/esp-idf/components/newlib/assert.c:80
+--- 0x42022093: esp_netif_create_default_wifi_sta at C:/tools/esp-idf/components/esp_wifi/src/wifi_default.c:388 (discriminator 1)
+--- 0x4200c403: app_wifi_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/app_wifi.c:182
+--- 0x4200c063: app_main at C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/main/take_picture.c:94
+--- 0x42092583: main_task at C:/tools/esp-idf/components/freertos/app_startup.c:208
+--- 0x4038335d: vPortTaskWrapper at C:/tools/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037a065: esp_restart_noos at C:/tools/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m

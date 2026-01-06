@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/CMakeFiles/bootloader
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/CMakeFiles/bootloader.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/CMakeFiles/bootloader-complete.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/ignas/OneDrive/Desktop/esp-iot-solution-master/examples/camera/video_stream_server/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,25 @@
+dependencies:
+  camera:
+    dependencies: []
+    source:
+      path: C:\Users\ignas\OneDrive\Desktop\esp-iot-solution-master\examples\common_components\camera
+      type: local
+    version: '*'
+  espressif/esp32-camera:
+    component_hash: c3eb05fbeeae884a23bed9b17d48d5f0da8872beadae0c0e747d2fbea6094f06
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.0.15
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+direct_dependencies:
+- camera
+- espressif/esp32-camera
+- idf
+manifest_hash: 74ea74e04967cf0559307c37d905fe5b57d2897d67d0b2afefe583add7d4291c
+target: esp32s3
+version: 2.0.0
